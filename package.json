@@ -1,0 +1,32 @@
+{
+  "name": "clock-ardi",
+  "version": "1.0.1",
+  "description": "",
+  "main": "lib/Clock.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack --mode production",
+    "transpile": "node_modules/.bin/babel ./src/components/Clock.js --presets babel-preset-es2015 --out-file lib/Clock.js"
+  },
+  "parse": "babel-react",
+  "author": "ardi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4",
+    "webpack-dev-server": "^3.7.1"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
