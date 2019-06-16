@@ -4,3 +4,4 @@
 Forexample: \<Clock color="green" />
 
 # default color is red
+ Use : npm i clock-ardi
